@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #e2bf0e;
+    list-style: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a hover{
+    background-color: #639a80;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20x;
+    padding: 1px;
+    margin: 0px;
+}
